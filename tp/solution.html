@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning abso vs rel</title>
+</head>
+<style>
+    * {
+        margin: 0;
+    }
+    .d0 {
+        background-color: blue;
+        width: 800px;
+        height: 800px;
+        position:relative;
+        margin:0 auto;
+        top:107px;
+    }
+
+    .d1 {
+        background-color:rgb(255, 0, 157);
+        width: 200px;
+        height:200px;
+        position :relative;
+        top:115px;/*simo*/
+        float:left;
+        border-radius: 0px;
+    }
+    .d2 {
+        background-color:rgb(0, 204, 255);
+        width: 70px;
+        height:70px;
+        position :relative;
+        top:170px;/*simo*/
+        float:left;
+        left: 10px;
+        padding: 10px;
+
+    }
+    .d3 {
+        background-color:rgb(229, 255, 0);
+        width: 70px;
+        height:70px;
+        position :relative;
+        top:170px;/*simo*/
+        float:left;
+        left: 10px;
+        padding: 10px;
+
+    }
+    .d4 {
+        background-color:rgb(171, 172, 179);
+        width: 70px;
+        height:70px;
+        position :relative;
+        top:170px;/*simo*/
+        float:left;
+        left: 10px;
+        padding: 10px;
+
+    }
+    .d5 {
+        background-color:rgb(31, 27, 27);
+        width: 70px;
+        height:70px;
+        position :relative;
+        margin:0 auto;
+        top:170px;/*simo*/
+        left: 10px;
+        float:left;
+        padding: 10px;
+    }
+
+</style>
+<body>
+
+    <div class="d0">
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>
+        <div class="d4"></div>
+        <div class="d5"></div>
+    </div>
+
+
+</body>
+
+</html>
